@@ -4,7 +4,7 @@ import Welcome from "./components/Welcome"
 import About from "./components/About"
 function App() {
   const basename =
-    import.meta.env.PROD ? "/react-gh-app" : "";
+    import.meta.env.PROD ? "/react-gh-app/" : "";
 
   return (
     <>
